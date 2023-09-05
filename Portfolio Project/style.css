@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:wght@300&family=Montserrat:wght@700&family=Open+Sans:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:ital,wght@1,100&family=Source+Code+Pro:wght@300&family=Tilt+Warp&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.sidebar {
+  background-color: rgb(220, 219, 219);
+  width: 10vw;
+  height: 100vh;
+  transition:transform 0.3s ease-in;
+}
+.sidebar nav {
+  /* padding: 40px; */
+  margin-top:100px;
+}
+.sidebar li {
+  padding: 30px;
+  list-style-type: none;
+  font-size: 50px;
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  /* background-color: yellowgreen; */
+  width: 90vw;
+  /* height:100vh; */
+}
+.infoContainer {
+  /* background-color: forestgreen; */
+  width: 70vw;
+  height: 58vh;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.Container {
+  display: flex;
+}
+.devPic img {
+  height: 58vh;
+}
+/* .infoContainer{
+    
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+} */
+.hello {
+  font-size: 85px;
+}
+.name {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "fira Sans", sans-serif;
+}
+.about {
+  font-size: 2.5em;
+}
+.moreabout {
+  font-size: 2em;
+  margin-top: 23px;
+  font-family: "fira Sans", sans-serif;
+ 
+}
+.buttons{
+  margin-top:2.2em;
+  font-size: 16px;
+}
+.btn{
+  padding: 15px;
+  border-radius: 25px;
+  /* margin:20px; */
+  color: white;
+  background-color: dodgerblue;
+  font-size: 2em;
+  margin:3px 3px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.Info {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+}
+.Info div {
+  padding: 13px;
+}
+
+.contactform{
+  font-family: "fira Sans", sans-serif;
+  padding: 100px;
+  margin:0 40px;
+
+
+
+}
+.contactform h1{
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  
+}
+.contactform form div{
+
+  padding:10px 0px;
+  display:flex;
+  flex-direction: column;
+}
+.contactform form div input{
+  /* width:26vw; */
+  border-radius:5px;
+  margin:6px 0 0 0;
+  padding:3px;
+  font-weight: bolder;
+}
+#emailHelp{
+  font-size: 14px;
+  color:midnightblue;
+  margin:0 5px;
+
+}
+/* #isclient{
+  padding:0px 3px;
+} */
+#form-check{
+  flex-direction: row;
+}
+#form-check input{
+  width:24px;
+  margin:4px 13px;
+}
+.btn-sm{
+  font-size: 20px;
+  padding:9px 19px;
+  margin:10px 17px;
+
+}
+
+.blogItem{
+  margin:20px;
+  font-family: "fira Sans", sans-serif;
+}
+.blogcontainer h1{
+  font-family: "fira Sans", sans-serif;
+  margin:26px;
+
+
+}
+
+.blogItem p{
+ 
+  font-family: "Source Code Pro", monospace;
+  padding: 0 25px;
+
+}
+.intro h2{
+  font-family: "fira Sans", sans-serif;
+  margin:20px;
+
+}
+.intro p{
+  font-family: "Source Code Pro", monospace; 
+  margin:20px;
+
+}
+.skillcontainer{
+  padding:15px;
+}
+.skillItem{
+  display:flex;
+  align-items: center;
+
+}
+.skill{
+  width:265px;
+  height:12px;
+  background-color: red;
+}
+
+.hundred{
+  width:265px;
+  background-color: blueviolet;
+
+}
+.fifty{
+  width:125px;
+  background-color: aqua;
+
+}
+.t5{
+  width:75px;
+  background-color: yellow;
+}
+.sidebarGo{
+  transform: translate(-443px 0px);
+  position:absolute;
+}
+.hamburger{
+  position:absolute;
+  cursor: pointer;
+  left: 10px;
+  right: 10px;
+}
+
+.cross1{
+  
+  margin-left: 185px;
+  margin-top: 10px;
+}
+
+@media(max-width:1618){
+  *{
+    /* background-color: red; */
+  }
+  .buttons{
+    font-size: 6px;
+  }
+  .Info{
+    font-size: 6px;
+  }
+  .intro,.blogcontainer,.contactform{
+    margin:50px 8px;
+  }
+
+}
+
+
+
+
+
+
+
+
